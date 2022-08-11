@@ -132,11 +132,11 @@ while True:
     if(ball.xcor() > 340) and (ball.xcor() < 350) and (ball.ycor() < right_paddle.ycor() + 40 and ball.ycor() > right_paddle.ycor() - 40):
          ball.setx(340)
          ball_dx = ball_dx * -1
-         os.system("hitpaddle.wav")
+      
 
     if(ball.xcor() < -340) and (ball.xcor() > -350) and (ball.ycor() < left_paddle.ycor() + 40 and ball.ycor() > left_paddle.ycor() - 40):
          ball.setx(-340)
          ball_dx = ball_dx * -1
-         os.system("hitpaddle.wav")
+       
          
         
